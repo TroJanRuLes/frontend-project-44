@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import startGame from '../src/startGame.js';
 import { getRandomInt } from '../src/gameLogic.js';
 
 const generateQuestion = () => {
