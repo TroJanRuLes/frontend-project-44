@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync'
 
-const StartGame = (description, generateQuestion) => {
+const runGame = (description, generateQuestion) => {
   console.log('Welcome to the Brain Games!')
   const name = readlineSync.question('May I have your name? ')
   console.log(`Hello, ${name}!`)
@@ -24,4 +24,4 @@ const StartGame = (description, generateQuestion) => {
   console.log(`Congratulations, ${name}!`)
 }
 
-export default StartGame
+export default runGame
