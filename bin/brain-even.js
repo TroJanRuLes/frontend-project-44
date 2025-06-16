@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { getRandomInt } from '../src/gameLogic.js';
+import { getRandomInt, generateQuestion } from '../src/gameLogic.js';
 const playEvenGame = () => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
